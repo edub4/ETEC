@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-image: url(../img/fundo-topo.jpg);
+    padding: 10px 0;
+}
+header h1{
+    margin: 0;
+    height: 84px;
+}
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+nav li{
+    display: inline;
+    padding-right: 27px;
+    margin-right: 10px;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #6dd432;
+}
+
+
+
+
+#contato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+#produto .Flex-container, #contato .Flex-container{
+    margin-top: 43px;
+}
+
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+form{
+    width: 380px;
+}
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+iframe{
+    width: 100%;
+}
+
+
+
+.fundo-verde{
+    background-color: #bdff9c;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+.Flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.Flex-container .col{
+    width: 430px;
+}
+
+
+.produto{
+    width: 235px;
+}
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+.produto figure img{
+    vertical-align: middle;
+
+}
+.texto-centralizado{
+    text-align: center;
+}
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+
+}
+
+hr{
+    border-top: #91e467 solid 1px;
+}
+
+footer img{
+    padding-right: 5px;
+}
+footer{
+    text-align: center;
+    padding-bottom: 25px;
+    margin: 10px;
+}
+footer li,a{
+    display: inline;
+    color: #6dd432;
+    text-decoration: none;
+}
+footer a{
+    padding-right: 5px;
+    margin-right: 5px;
+}

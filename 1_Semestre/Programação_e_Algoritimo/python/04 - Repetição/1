@@ -1,0 +1,12 @@
+continuar = 0
+mult  = 0
+
+while continuar < 10:
+    num = int(input('digite um valor'))
+    if 5 
+        mult += 1
+    
+    continuar += 1
+
+print (f' ha {mult} multiplos de cinco')
+        

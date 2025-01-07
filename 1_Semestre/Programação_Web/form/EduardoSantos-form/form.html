@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">   
+</head>
+<body>
+    <header><h1>testando formulario</h1></header>
+    <main>
+        <form action="">
+            
+                <div>
+                    <label for="texto"><strong>campo de texto:</strong></label>
+                    <input type="text" id="texto" autofocus >
+                </div>
+                <div>
+                    <label for="leitura"><strong>campo de leitura:</strong></label>
+                    <input type="text" id="leitura" placeholder="desabilitado" disabled>
+                </div>
+                <div>
+                    <label for="numero"><strong>campo numerico:</strong></label>
+                    <input type="number" id="numero" autofocus>
+                </div>
+                <div>
+                    <label for="data"><strong>data:</strong></label>
+                    <input type="date" id="data">
+                </div>
+                <div>
+                    <label for="arquivo"><strong>arquivo:</strong></label>
+                    <input type="file" id="arquivo">
+                </div>
+                <div>
+                    <label for="senha"><strong>Senha:</strong></label>
+                    <input type="password" id="senha" autofocus placeholder="digite sua senha">
+                </div>
+                <div>
+                    <label for="valores"><strong>Valores:</strong></label>
+                    <input type="radio" id="valor1" name="valores" >
+                    <label for="valor1">valor 1</label>
+                    <input type="radio" id="valor2" name="valores">
+                    <label for="valor2">valor 2</label>
+                </div>
+                <div>
+                    <strong><p>escolha um tipo: </strong></p>
+                    <input type="checkbox" id="tipo1" name="tipo1">
+                    <label for="tipo1">tipo 1</label>
+                    <input type="checkbox" id="tipo2" name="tipo2">
+                    <label for="tipo2">tipo 2</label>
+                    <input type="checkbox" id="tipo3" name="tipo3">
+                    <label for="tipo3"></label>
+                </div>
+                <div>
+                    <label for="select"><strong>seletor simples: </strong></label>
+                    <select name="seletor" id="select" >
+                        <option value="1"> valor 1</option>
+                        <option value="2"> valor 2</option>
+                        <option value="3"> valor 3</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="multiplo"><strong>seletor multiplo:</strong></label>
+                    <select name="multiplo" id="multiplo" multiple>
+                        <option value="1">valor 1</option>
+                        <option value="2">valor 2</option>
+                        <option value="3">valor 3</option>
+                        <option value="4">valor 4</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="areatxt"><strong>area de texto:</strong></label>
+                    <textarea name="areatxt" id="area" cols="45" rows="7" placeholder="digite aqui"></textarea>
+                </div>
+                
+                
+                <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

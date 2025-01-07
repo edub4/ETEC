@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Iframe</title>
+    <style>
+        nav{
+            background-color: gainsboro;
+            border-radius: 30px;
+        }
+        iframe{
+            background-color: gray;
+        }
+        ul li{
+            display:inline;
+            margin: 8px;
+        }
+
+        ul a:hover{
+            font-size: xx-large;
+        }
+    </style>
+     <!--deixa os bagui grandao : ul a:hover -->
+
+</head>
+<body>
+
+    <header>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html" target="framezada">Home</a></li>
+            <li><a href="parceiros.html" target="framezada">Parceiros</a></li> 
+            <li><a href="QuemSomos.html" target="framezada">Quem somos</a></li>
+        
+        </ul>
+    </nav>
+
+    <iframe src="home.html" name="framezada" width="100%"
+    height="300px" title="Iframe"></iframe>
+    
+</body>
+</html>
